@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indicators>
+  <res>
+    <dt>20190501</dt>
+    <txt>Офіційні резервні активи</txt>
+    <txten>Official reserve assets</txten>
+    <id_api>RES_OffReserveAssets</id_api>
+    <leveli>1</leveli>
+    <parent>Off_Reserve_Assets</parent>
+    <freq>M</freq>
+    <value>20524.72</value>
+    <tzep>T071USD_7</tzep>
+  </res>
+  <res>
+    <dt>20190501</dt>
+    <txt>Резерви в іноземній валюті</txt>
+    <txten>Foreign currency reserves</txten>
+    <id_api>RES_ForCurrencyAssets</id_api>
+    <leveli>2</leveli>
+    <parent>RES_OffReserveAssets</parent>
+    <freq>M</freq>
+    <value>19424.39</value>
+    <tzep>T071USD_7</tzep>
+  </res>
+  <res>
+    <dt>20190501</dt>
+    <txt>Резервна позиція в МВФ</txt>
+    <txten>IMF reserve position</txten>
+    <id_api>RES_IMFResPosition</id_api>
+    <leveli>2</leveli>
+    <parent>RES_OffReserveAssets</parent>
+    <freq>M</freq>
+    <value>0.33</value>
+    <tzep>T071USD_7</tzep>
+  </res>
+  <res>
+    <dt>20190501</dt>
+    <txt>Спеціальні права запозичення</txt>
+    <txten>SDRs</txten>
+    <id_api>RES_SDRs</id_api>
+    <leveli>2</leveli>
+    <parent>RES_OffReserveAssets</parent>
+    <freq>M</freq>
+    <value>95.91</value>
+    <tzep>T071USD_7</tzep>
+  </res>
+  <res>
+    <dt>20190501</dt>
+    <txt>Золото</txt>
+    <txten>Gold</txten>
+    <id_api>RES_Gold</id_api>
+    <leveli>2</leveli>
+    <parent>RES_OffReserveAssets</parent>
+    <freq>M</freq>
+    <value>1004.09</value>
+    <tzep>T071USD_7</tzep>
+  </res>
+  <res>
+    <dt>20190501</dt>
+    <txt>Інші резервні активи</txt>
+    <txten>Other reserve assets</txten>
+    <id_api>RES_OthReserveAssets</id_api>
+    <leveli>2</leveli>
+    <parent>RES_OffReserveAssets</parent>
+    <freq>M</freq>
+    <value>0</value>
+    <tzep>T071USD_7</tzep>
+  </res>
+</indicators>
