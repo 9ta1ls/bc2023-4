@@ -23,7 +23,6 @@ app.get("/", (req,res) =>{
             res.status(400).send('Invalid XML format');
         const obj = parser.parse(data);
         let minVal =  minFunc(obj.indicators);
-        console.log(minVal);
         const xmlData = {"data":{"min_value":minVal}};
         const finaleXml = builder.build(xmlData);
         res.send(finaleXml);
