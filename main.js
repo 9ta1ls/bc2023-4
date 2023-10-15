@@ -16,7 +16,6 @@ function minFunc(arr){
     }
     return minVal;
 }
-
 app.get("/", (req,res) =>{
     fs.readFile("data.xml",(err, data)=>{
        if(err != null)
